@@ -1,0 +1,16 @@
+- préparer le ficher : 
+importer le modèle et l'installer
+
+-Préparer les composants : Header (pour la nav), articlesLogement, avis et footer
+	Créer les pages .jsx + créer les RFC
+	Importer ces composants (vide pour l'instant) dans App.jsx + vérifier l'import
+
+-Complèter les composants : 
+---Navbar : Logo + nav
+		mettre les flex aux bons endroits + bg moche en attendant
+	gérer le responsive avec apparition du menu B (non fonctionnel)
+
+---articlesLogoments : tableau 
+---avis : tableau
+---Footer : les différents liens
+		
