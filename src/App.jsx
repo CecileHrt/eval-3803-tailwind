@@ -8,11 +8,10 @@ function App() {
   return (
     <>
       <Header />
-      <main className="min-h-[76vh] bg-gray-100">
-        <ArticlesLogements />
 
-        <Avis />
-      </main>
+      <ArticlesLogements />
+
+      <Avis />
 
       <Footer />
     </>

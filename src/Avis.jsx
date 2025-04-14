@@ -16,11 +16,11 @@ export default function ArticlesLogements() {
     { id: 3, name: "Emma D.", review: "Excellente expérience, on reviendra." },
   ];
   return (
-    <div className="p-5">
+    <div className="px-5 py-10">
       <h2 className="text-2xl pl-2 font-medium mb-4">Avis clients</h2>
-      <div className="p-3 pl-0 products-list flex max-md:flex-col ">
+      <div className="py-3 px-0 products-list flex max-md:flex-col ">
         {reviews.map((avisClt) => (
-          <AvisUser avis={avisClt} />
+          <AvisUser key={avisClt.id} avis={avisClt} />
         ))}
       </div>
     </div>

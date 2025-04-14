@@ -45,11 +45,11 @@ export default function ArticlesLogements() {
     },
   ];
   return (
-    <div className="p-5 bg-gray-200">
+    <div className="px-5 py-10 bg-gray-200">
       <h2 className="text-2xl pl-2 font-medium mb-4">Logements disponibles</h2>
       <div className="p-3 pl-0 products-list flex max-xl:overflow-x-scroll flex-nowrap ">
         {listings.map((article) => (
-          <Gite hebergement={article} />
+          <Gite key={article.id} hebergement={article} />
         ))}
       </div>
     </div>
